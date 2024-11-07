@@ -1,6 +1,5 @@
 import "./App.css";
 import Card from "./components/Card/Card";
-import { useDarkMode } from "./utils/Dark Mode/DarkModeContext";
 import { ThemeToggle } from "./utils/Dark Mode/ThemeToggle";
 
 function App() {
