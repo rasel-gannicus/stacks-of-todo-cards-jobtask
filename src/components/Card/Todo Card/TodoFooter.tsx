@@ -21,7 +21,7 @@ const TodoFooter = () => {
         <p>15</p>
       </span>
       <span className="flex gap-2 justify-center items-center font-semibold">
-        <FaPaperclip className="w-4 h-4 text-gray-800 dark:text-gray-400"  />
+        <FaPaperclip className="w-4 h-4 text-gray-800 dark:text-gray-400" />
         <p className="text-gray-600">25</p>
       </span>
       <span className="flex gap-1 justify-center items-center font-semibold">
