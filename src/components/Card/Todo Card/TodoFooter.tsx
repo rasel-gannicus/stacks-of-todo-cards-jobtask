@@ -4,7 +4,19 @@ import { FaPaperclip } from "react-icons/fa6";
 import userImg3 from "../../../assets/img/man (1).png";
 import userImg4 from "../../../assets/img/man (2).png";
 
-const TodoFooter = ({ comments, attachments, date, teamSize }: { comments: number, attachments:any, date: string, teamSize: string | number }) => {
+const TodoFooter = ({
+  comments,
+  attachments,
+  date,
+  teamSize,
+}: {
+  comments: number;
+  attachments: any;
+  date: string;
+  teamSize: string | number;
+}) => {
+
+  
   return (
     <div className="flex justify-between items-center">
       <span className="overflow-hidden w-8 h-8 rounded-full flex justify-center items-center">

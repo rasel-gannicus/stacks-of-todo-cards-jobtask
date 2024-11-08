@@ -1,4 +1,4 @@
-const CardHeader = ({title, color} :{title : string, color : string}) => {
+const CardHeader = ({ title, color }: { title: string; color: string }) => {
   return (
     <div className="flex justify-between items-center">
       <div className="flex justify-center items-center gap-2 rounded-full overflow-hidden">

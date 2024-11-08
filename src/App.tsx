@@ -1,17 +1,16 @@
 import axios from "axios";
+import { useEffect, useState } from "react";
 import "./App.css";
 import Card from "./components/Card/Card";
 import { ThemeToggle } from "./utils/Dark Mode/ThemeToggle";
-import { useEffect, useState } from "react";
 
 function App() {
   const [columns, setColumns] = useState([]);
-  // console.log("🚀 ~ App ~ columns:", columns);
 
   useEffect(() => {
-    // Fetch data from your Node.js server
+    // Fetch data from mongodb
     axios
-      .get("http://localhost:2500/api/v1/columns")
+      .get(`${import.meta.env.VITE_API_URL}/columns`)
       .then((response) => {
         setColumns(response.data);
       })
