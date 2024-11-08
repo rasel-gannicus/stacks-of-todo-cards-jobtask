@@ -14,20 +14,20 @@ export type Task = {
 
 type Column = {
   title: string;
-  color ? : string ;
+  color ? : any ;
   tasks: Task[];
 };
 
 const Card = ({ data }: { data: Column }) => {
   console.log("🚀 ~ Card ~ data:", data)
   return (
-    <div className="w-[500px]  shadow-lg bg-[#F2F4F7] dark:bg-slate-800 py-5 px-3  max-h-screen overflow-y-auto custom-scrollbar ">
+    <div className="w-[500px] scale-90  shadow-lg bg-[#F2F4F7] dark:bg-slate-800 py-5 px-3  max-h-[90vh] overflow-y-auto custom-scrollbar ">
       {/* --- Card header --- */}
       <CardHeader title={data.title} color={data.color} />
 
       {/* --- Todo --- */}
       {
-        data.tasks.map((singleTask : Task) => <Todo />)
+        data.tasks.map((singleTask : Task) => <Todo task={singleTask} />)
       }
     </div>
   );
