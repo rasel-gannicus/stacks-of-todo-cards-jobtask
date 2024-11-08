@@ -17,15 +17,15 @@ const TodoFooter = () => {
         <p>12+</p>
       </span>
       <span className="flex gap-2 justify-center items-center font-semibold text-gray-600">
-        <BiConversation className="w-6 h-6 text-gray-500" />
+        <BiConversation className="w-6 h-6 text-gray-500 dark:text-gray-400" />
         <p>15</p>
       </span>
       <span className="flex gap-2 justify-center items-center font-semibold">
-        <FaPaperclip className="w-4 h-4 text-gray-800" />
+        <FaPaperclip className="w-4 h-4 text-gray-800 dark:text-gray-400"  />
         <p className="text-gray-600">25</p>
       </span>
       <span className="flex gap-1 justify-center items-center font-semibold">
-        <FaCalendarAlt className="w-4 h-4 text-gray-500" />
+        <FaCalendarAlt className="w-4 h-4 text-gray-500  dark:text-gray-400" />
         <p className="text-gray-600 text-sm">13-12-2022</p>
       </span>
     </div>

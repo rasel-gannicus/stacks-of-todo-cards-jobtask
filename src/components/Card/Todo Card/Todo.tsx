@@ -4,7 +4,7 @@ import TodoMid from "./TodoMid";
 
 const Todo = () => {
   return (
-    <div className="bg-white dark:bg-gray-400 mt-8 py-5 px-3 rounded-md gap-5 flex flex-col ">
+    <div className="bg-white dark:bg-slate-500 mt-8 py-5 px-3 rounded-md gap-5 flex flex-col ">
       {/* --- Todo Header --- */}
       <TodoHeader />
 

@@ -5,8 +5,8 @@ const TodoMid = () => {
     return (
         <div className="flex justify-between items-center">
           <div className="flex gap-2 justify-center items-center">
-            <BsStack className="w-4 h-4 text-gray-500" />
-            <p className="text-sm font-semibold text-gray-400">
+            <BsStack className="w-4 h-4 text-gray-500 dark:text-slate-200" />
+            <p className="text-sm font-semibold text-gray-200">
               Lorem ipsum, dolor sit amet cons
             </p>
           </div>
